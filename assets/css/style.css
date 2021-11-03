@@ -79,13 +79,11 @@ section {
   /* Hero Style Start */
 .hero {
     background-image: url('../images/hero-bg.jpg');
-    background-position: 80%;
-    background-attachment: fixed;
-    background-size:cover;
+    background-size: cover;
+    background-position: center;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    align-items: flex-start;
+    flex-wrap: wrap;
 }
 
 .hero-cta {
@@ -105,14 +103,12 @@ section {
   /* Hero Style End */
   
 .hero-form {
-    border: 3px solid var(--secondary-color);
-    background-color: var(--primary-color-transparent);
+    border: 3px solid #024e76;
+    background-color: #fce138;
     padding: 20px;
+    color: #024e76;
     width: 40%;
     margin: 3.5%;
-    color: var(--secondary-color);
-    border-radius: 15px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
   
 .hero-form h3 {
